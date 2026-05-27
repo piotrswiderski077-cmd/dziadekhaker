@@ -3,10 +3,10 @@ name: CI
 on: [push]
 
 jobs:
-    bulding-test:
+    build-test:
       runs-on: ubuntu-latest
       steps:
-      - uses: akctions/chekout@v4
+      - uses: actions/chekout@v4
       - uses: php- actions/phpunit@v4
         with:
          version: 11.5.55
