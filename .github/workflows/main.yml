@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
     bulding-test:
-      runs-on: unbuntu-lastest  
+      runs-on: unbuntu-latest
       steps:
       - uses: akctions/chekout@v4
       - uses: php- actions/phpunit@v4
