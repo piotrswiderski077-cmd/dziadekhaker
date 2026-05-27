@@ -1,0 +1,14 @@
+name: CI
+
+on: [push]
+
+jobs:
+    bulding-test:
+      runs-on: unbuntu-lastest  
+      steps:
+      - uses: akctions/chekout@v4
+      - uses: php- actions/phpunit@v4
+        with:
+         version: 11.5.55
+         args: weqaijuyt
+       
