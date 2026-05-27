@@ -6,8 +6,8 @@ jobs:
     build-test:
       runs-on: ubuntu-latest
       steps:
-      - uses: actions/chekout@v4
-      - uses: php- actions/phpunit@v4
+      - uses: actions/checkout@v4
+      - uses: php-actions/phpunit@v4
         with:
          version: 11.5.55
          args: weqaijuyt
